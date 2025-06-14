@@ -1,0 +1,10 @@
+@import 'tailwindcss';
+
+/* 커스텀 디자인 */
+@theme {
+  --color-primary: oklch(85.2% 0.199 91.936);
+  --color-primary-hover: oklch(79.5% 0.184 86.047);
+  
+  --color-gray: oklch(92.8% 0.006 264.531);
+  --color-gray-hover: oklch(87.2% 0.01 258.338);
+}
