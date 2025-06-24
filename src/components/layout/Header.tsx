@@ -1,11 +1,14 @@
 const Header = () => {
   return (
     <header className="w-full p-7 flex justify-between items-center">
-      <a href="/" className="text-2xl font-bold">Babit</a>
-      <nav className="space-x-6">
+      <a href="/" className="text-2xl font-bold">
+        Babit
+      </a>
+      <nav className="space-x-6 flex">
         <a href="/diet">식단관리</a>
+        <a href="/ranking">랭킹</a>
         <a href="/community">커뮤니티</a>
-        <a href="/profile">마이페이지</a>
+        <a href="/mypage">마이페이지</a>
       </nav>
     </header>
   );
